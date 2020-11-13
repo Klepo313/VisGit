@@ -1,0 +1,26 @@
+*{
+    background-color: #414042;
+}
+
+.botun{
+    position: relative;
+    height: 70px;
+    width: 700px;
+    position: absolute;
+    border: #5BFF62 solid 3px;
+    border-radius: 25px;
+    font-size: 25px;
+    color: #fef;
+    background-color: #231F20;
+    padding: 5 5 5 5;
+    transform: translate(85%, 600%);
+    text-align: center;
+}
+
+.botun:hover{
+    cursor: pointer;
+    border: #5BFF62 solid 3px;
+    color: #fef;
+    background-color: #231f32;
+    border-radius: 50px;
+}
