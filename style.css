@@ -3,7 +3,6 @@
 }
 
 .botun{
-    position: relative;
     height: 70px;
     width: 700px;
     position: absolute;
@@ -13,7 +12,6 @@
     color: #fef;
     background-color: #231F20;
     padding: 5 5 5 5;
-    transform: translate(85%, 600%);
     text-align: center;
 }
 
@@ -24,3 +22,26 @@
     background-color: #231f32;
     border-radius: 50px;
 }
+.znase{
+    text-align: center;
+    color: white;
+}
+
+.container { 
+    height: 80px;
+    width: 800px;
+    position: relative;
+  }
+  
+.center {
+    margin: 0;
+    position: absolute;
+
+  }
+
+  a{
+      color: white;
+  }
+  a:hover{
+      color:#5BFF62;
+  }
