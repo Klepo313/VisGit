@@ -5,7 +5,10 @@
 .botun{
     height: 70px;
     width: 700px;
-    position: absolute;
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    position: relative;
     border: #5BFF62 solid 3px;
     border-radius: 25px;
     font-size: 25px;
@@ -19,28 +22,20 @@
     cursor: pointer;
     border: #5BFF62 solid 3px;
     color: #fef;
-    background-color: #231f32;
+    background-color: #231f20;
     border-radius: 50px;
+}
+.divvv{
+    border: white solid 3px;
 }
 .znase{
     text-align: center;
     color: white;
 }
 
-.container { 
-    height: 80px;
-    width: 800px;
-    position: relative;
-  }
-  
-.center {
-    margin: 0;
-    position: absolute;
-
-  }
-
   a{
       color: white;
+      font-size: 40px;
   }
   a:hover{
       color:#5BFF62;
