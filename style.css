@@ -1,64 +1,171 @@
 *{
-    background-color: #414042;
-    
+    background: #060507;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    z-index: 10;
 }
-
-h1{
-    text-align: center;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+header{
+    display: flex;
+    flex-direction: row;
 }
-
-.botun{
-    height: 70px;
-    width: 700px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: #5BFF62 solid 3px;
-    border-radius: 25px;
-    font-size: 25px;
-    color: #fef;
-    background-color: #231F20;
-    padding: 5 5 5 5;
-    text-align: center;
+.headerclass{
+    display: flex;
+    flex-direction: row;
 }
-
-.botun:hover{
+.montblanc{
+    padding-top: 55px;
+    padding-left: 64px;
+}
+.Hostalo{
+    padding-top: 79px;
+    padding-left: 128px;
+}
+.HostaloChild{
+    padding-right: 60px;
     cursor: pointer;
-    border: #5BFF62 solid 3px;
-    color: #939598;
-    background-color: #231f20;
-    border-radius: 50px;
 }
-.divvv{
-    padding-top: 10px;
-    padding-bottom: 20px;
+.motor{
+    position: absolute;
+    left: 0px;
+    top: 266px;   
+    z-index: -10;
+    margin-top: -5%; 
 }
-.znase{
-    text-align: center;
-    color: white;
+.kolo{
+    left: 1000px;
+    top: 323px;
+    z-index: -3;
+}
+.mtnblack{
+    position: absolute;
+    left: 850px;
+    top: 210px;
+    background-color: #050506;
+}
+.mainara{
+    display: flex;
+    flex-direction: row;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    width: 1032px;
+    padding-left: 0px;
+    padding-top: 60px;
+}
+.goldSlika{
+    position: relative;
+    padding-left: 35px;
+}
+.vecamainara{
+    display: flex;
+    flex-direction: row;
+}
+.desnocudomainDiv{
+    padding-left: 41px;
+    margin-top: -15%;
+}
+.desnotext{
+    position: absolute;
+    left: 1400px;
+    top: 400px;
+    padding-top: 50px;
+    z-index: 11;
+}
+.desnoCudoDiv{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    right: 0;
 }
 
-  a{
-      color: white;
-      font-size: 40px;
-  }
-  a:hover{
-      color:#5BFF62;
-  }
-
-  img{
-    border-radius: 25px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .div1{
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      border: 4px solid white;
-      width: auto;
-      height: auto;
-      color: white;
-  }
- 
+.doleDiv{
+    display: flex;
+    flex-direction: row;
+    background: none;
+}
+.kinezi{
+    position: absolute;
+    display: flex;
+    top: 750px;
+    background: none;
+    z-index: 10;
+}
+.kineskoSlovo{
+    background: none;
+}
+.pokret{
+    display: flex;
+    flex-direction: row;
+}
+.dvojka{
+    position: absolute;
+    width: 72px;
+    height: 40px;
+    left: 50px;
+    top: 1000px;
+    font-family: Druk Wide;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 183%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.linijaN{
+    position: absolute;
+    width: 140px;
+    height: 2px;
+    left: 150px;
+    top: 1020px;
+    background: #A75B12;
+    z-index: 7;
+}
+.linijaW{
+    position: absolute;
+    width: 140px;
+    height: 2px;
+    left: 230px;
+    top: 1020px;
+    background: #ffffff;
+    z-index: 6;
+}
+.desetka{
+    position: absolute;
+    width: 72px;
+    height: 40px;
+    left: 400px;
+    top: 1000px;
+    font-family: Druk Wide;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 183%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.textNeki{
+    position: absolute;
+    width: 406px;
+    height: 92px;
+    left: 535px;
+    top: 987px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 200%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.zadnjekolo{
+    position: absolute;
+    left: 1117px;
+    top: 867px;
+    z-index: 9;
+}
